@@ -31,6 +31,11 @@
 		<servlet-name>ListMsg</servlet-name> 
 		<servlet-class>servlet.ListMsg</servlet-class> 
 	</servlet> 
+	
+	<servlet> 
+		<servlet-name>ListFriend</servlet-name> 
+		<servlet-class>servlet.ListFriend</servlet-class> 
+	</servlet> 
 
 	<servlet> 
 		<servlet-name>Login</servlet-name> 
@@ -72,6 +77,11 @@
 		<url-pattern>/Message/List</url-pattern> 
 	</servlet-mapping> 
 
+	<servlet-mapping>
+		<servlet-name>ListFriend</servlet-name> 
+		<url-pattern>/User/List</url-pattern> 
+	</servlet-mapping> 
+	
 	<servlet-mapping> 
 		<servlet-name>Login</servlet-name> 
 		<url-pattern>/User/Login</url-pattern> 
